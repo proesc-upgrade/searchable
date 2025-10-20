@@ -1,7 +1,7 @@
 Searchable, a search trait for Laravel
 ==========================================
 
-Searchable is a trait for Laravel 4.2+ and Laravel 5.0 that adds a simple search function to Eloquent Models.
+Searchable is a trait for Laravel 5.1 that adds a simple search function to Eloquent Models.
 
 Searchable allows you to perform searches in a table giving priorities to each field for the table and it's relations.
 
@@ -12,8 +12,10 @@ This is not optimized for big searches, but sometimes you just need to make it s
 Simply add the package to your `composer.json` file and run `composer update`.
 
 ```
-"nicolaslopezj/searchable": "1.*"
+"nicolaslopezj/searchable": "~5.1"
 ```
+
+This version is compatible with Laravel 5.1 and PHP 5.6+.
 
 # Usage
 
